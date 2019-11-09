@@ -22,7 +22,11 @@ const createFareMultiplier = function (num) {
   };
 };
 
-const fareDoubler = function {
-  
-}
+const fareDoubler = createFareMultiplier(2);
+                         //created above 
+const fareTripler = createFareMultiplier(3);
+
+const selectDifferentDrivers = function (drivers, whichDrivers) {
+  return whichDrivers(drivers);
+};
 
